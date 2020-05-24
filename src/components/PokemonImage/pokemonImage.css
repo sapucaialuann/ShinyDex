@@ -1,0 +1,51 @@
+.cardsContainer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pokemonBoard {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+li {
+    margin: 10px;
+    display: flex;
+    min-width: 250px;
+    min-height: 300px;
+    border-radius: 40px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #81C2D1;
+    border: 2px solid #2c7686;
+}
+
+li img {
+    height: 150px;
+    /* border: 1px solid blue; */
+}
+
+h2 {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.pokedexNumber {
+    font-weight: unset;
+    margin-right: 10px;
+}
+
+/* div that contains the info about the pokemons */
+.pokemonData {
+    display: flex;
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 40px;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+/* inspiration: https://br.pinterest.com/pin/563512972126858956/ */
